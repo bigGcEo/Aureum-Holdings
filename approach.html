@@ -64,6 +64,46 @@
       background: linear-gradient(90deg, var(--gold), transparent);
       margin: 25px 0;
     }
+    .navbar {
+  background-color: var(--black);
+  border-bottom: 1px solid var(--gold);
+  padding: 16px 0;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--gold);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--gold);
+}
   </style>
 </head>
 
